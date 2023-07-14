@@ -1,0 +1,30 @@
+.NavBar{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 99;
+}
+.NavBarBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 0 10px;
+}
+.NavBarLeft h1{
+    color: rgb(43, 0, 123);
+}
+.NavBarRight{
+    display: flex;
+    align-items: center;
+}
+.NavBarRight>*{
+    margin: 0 7px;
+    cursor: pointer;
+    transition: all .2s;
+}
+.NavBarRight>*:hover{
+    scale: 1.05;
+}

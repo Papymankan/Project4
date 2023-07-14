@@ -1,0 +1,21 @@
+.Feature{
+    width: 33%;
+}
+.Feature>span:nth-of-type(1){
+    font-size: 22px;
+    color: rgb(61, 61, 61);
+}
+.Feature>span:nth-of-type(2){
+    font-size: 16px;
+    color: rgb(61, 61, 61);
+}
+.FeaturesPricingBox{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.FeaturesPricingBox h3{
+    font-size: 27px;
+    margin-right: 12px;
+}

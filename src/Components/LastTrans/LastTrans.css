@@ -1,0 +1,23 @@
+.TransTable>tr>td:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.TransTable>tr>td:nth-of-type(1)>div{
+    margin-right: 15px;
+}
+.TransTable>tr>td:nth-of-type(1){
+    font-weight: 600;
+}
+.TransTable>tr>td:nth-of-type(4).Disabled{
+    color: red;
+    cursor: pointer;
+}
+.TransTable>tr>td:nth-of-type(4).Pending{
+    color: rgb(0, 128, 255);
+    cursor: pointer;
+}
+.TransTable>tr>td:nth-of-type(4).Done{
+    color: rgb(11, 133, 0);
+    cursor: pointer;
+}

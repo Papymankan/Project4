@@ -1,0 +1,33 @@
+.UserList{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.UserListUser{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+.UserListUser div {
+    margin-right: 10px;
+}
+.UserListTable{
+    width: 70%;
+}
+
+.UserListTable.MuiDataGrid-root.MuiDataGrid-root--densityStandard.MuiDataGrid-withBorderColor.css-1lymaxv-MuiDataGrid-root {
+    border: 0;
+}
+.EditUser{
+    border: 0;
+    background-color: rgb(128, 255, 86);
+    padding: 7px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.DeleteUser{
+    cursor: pointer;
+    margin-left: 10px;
+    color: red;
+}

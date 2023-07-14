@@ -1,0 +1,33 @@
+.Home{
+    width: 100%;
+}
+.Features{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Widgets{
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+    padding-bottom: 110px;
+    justify-content: space-between;
+}
+.WidgetLeft{
+    width: 35%;
+}
+.WidgetRight{
+    width: 60%;
+}
+.TransTable{
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+}
+.TransTable>tr{
+    width: 100%;
+    height: 60px;
+}
+#HomeChart{
+    margin-top: 70px;
+}

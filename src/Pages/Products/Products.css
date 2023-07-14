@@ -1,0 +1,33 @@
+.ProductList{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ProductListProduct{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+.ProductListProduct div {
+    margin-right: 10px;
+}
+.ProductListTable{
+    width: 70%;
+}
+
+.ProductListTable.MuiDataGrid-root.MuiDataGrid-root--densityStandard.MuiDataGrid-withBorderColor.css-1lymaxv-MuiDataGrid-root {
+    border: 0;
+}
+.EditProduct{
+    border: 0;
+    background-color: rgb(128, 255, 86);
+    padding: 7px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.DeleteProduct{
+    cursor: pointer;
+    margin-left: 10px;
+    color: red;
+}
