@@ -1,3 +1,3 @@
-# Full Responsive APPSON Landing Page
+# SPA Dashboard Admin
 
-Full Responsive website landing page designed by React and different libraries
+a single-page website built by React
